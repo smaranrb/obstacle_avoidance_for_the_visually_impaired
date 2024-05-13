@@ -1,0 +1,10 @@
+path: custom_split
+train: 'train'
+val: 'validation'
+
+# class names
+names: 
+  0: 'light_pole'
+  1: 'pothole/ditch'
+  2: 'roadside_stall'
+  3: 'vehicle'

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['light_pole', 'pothole-ditch', 'roadside_stall', 'vehicle']
+
+roboflow:
+  workspace: yolov7-yjr5h
+  project: hi-claeq
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov7-yjr5h/hi-claeq/dataset/11
